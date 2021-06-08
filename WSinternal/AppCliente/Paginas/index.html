@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/Vendor/tailwind.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Vendor/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Vendor/select.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Vendor/responsive.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/App/customTable.css">
+
+    <link rel="stylesheet" href="../CSS/Vendor/jquery.modal.css">
+
+    <script src="../JS/Vendor/Chart.js"></script>
+
+    <style>
+        #menu-toggle:checked + #menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900">
+    <header class="lg:px-4 px-6 bg-gray-800 flex flex-wrap items-center shadow-lg lg:py-2 py-2">
+
+        <label for="menu-toggle" class="pointer-cursor lg:hidden block">
+            <svg class="fill-current text-white"
+                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="w-full">
+            <div class="hidden lg:flex lg:items-center lg:w-auto w-full justify-between" id="menu">
+                <nav>
+                    <ul class="lg:flex items-center justify-between text-base pt-4 lg:pt-0">
+                        <li class="mr-2 my-2 lg:my-0">
+                            <a class="text-center block rounded py-2 px-4 bg-indigo-500 text-white" href="./index.html">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./bookings.html">
+                                <i class="fas fa-calendar-alt"></i> Reservas
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4" href="./rooms.html">
+                                <i class="fas fa-bed"></i> Habitaciones
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./customers.html">
+                                <i class="fas fa-users"></i> Clientes
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./options.html">
+                                <i class="fas fa-wrench"></i> Options
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="../imagenes/logoModificado.png" id="logo" class="float-right" style="width: 150px"/>
+            </div>
+        </div>
+    </header>
+
+    <div class="w-11/12 mx-auto">
+        <div class="flex flex-row w-full  md:justify-between mt-6 mx-auto md:mx-0">
+            <div class="w-4/12">
+                <span class="text-gray-500 text-3xl">
+                    Hoy
+                </span>
+                <div class="flex flex-col justify-between">
+                    <a href="./bookings.html" class="w-10/12 mt-2 bg-gray-800 rounded-lg p-8 my-4 mr-4 shadow-lg">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-200 text-lg">
+                                <i class="fas fa-sign-in-alt text-3xl mx-2"></i>
+                                Check-ins
+                            </span>
+                            <div id="todayCheckins" class="text-3xl text-gray-200 mr-6">
+                                0
+                            </div>
+                        </div>
+                    </a>
+                    <a href="./bookings.html" class="w-10/12 mt-2 bg-gray-800 rounded-lg p-8 my-4 mr-4 shadow-lg">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-200 text-lg">
+                                <i class="fas fa-sign-out-alt text-3xl mx-2"></i>
+                                Check-outs
+                            </span>
+                            <div id="todayCheckouts" class="text-3xl text-gray-200 mr-6">
+                                0
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="w-8/12">
+                <span class="text-gray-500 text-3xl">
+                    Busqueda Rapida
+                </span>
+                <div class="w-full mt-2 bg-gray-800 rounded-lg p-8 my-4 shadow-lg">
+                    <div class="flex">
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-lg font-bold mb-2"
+                                   for="quickSearchCustomer">
+                                <i class="fas fa-users"></i>
+                                Clientes
+                            </label>
+                            <div class="flex justify-between">
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="quickSearchCiCliente" type="search" placeholder="Documento...">
+                            </div>
+                            <div class="flex justify-center">
+                                <button class="bg-indigo-500 hover:bg-indigo-700 text-white mt-8 font-bold py-2 px-4 rounded focus:outline-none"
+                                        type="button" id="searchCustomerButton" onclick="openSearchCustomerModal()">
+                                    <i class="fas fa-search"></i>
+                                    Buscar
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w-full px-3 mb-3 mt-4">
+                        <label class="block uppercase tracking-wide text-gray-200 text-lg font-bold mb-2"
+                               for="quickSearchRoom">
+                            <i class="fas fa-bed"></i>
+                            Disponibilidad de Habitaciones
+                        </label>
+                        <div class="flex justify-between">
+                            <div class="w-6/12 pr-4">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="quickSearchRoom">
+                                    Fecha de Entrada
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="quickSearchCheckinDate" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                            <div class="w-6/12 pl-4">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="quickSearchCheckoutDate">
+                                    Fecha de Salida
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="quickSearchCheckoutDate" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white mt-8 font-bold py-2 px-4 rounded focus:outline-none"
+                                    type="button" id="searchRoomButton" onclick="openSearchRoomModal()">
+                                <i class="fas fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row justify-between">
+            <div class=" mt-6" style="width: 48%">
+                <span class="text-gray-500 text-3xl">
+                    Reporte Categorias
+                </span>
+                <div class="flex justify-between ">
+                    <div class="w-full mt-2 bg-gray-800 rounded-lg p-6 my-4 shadow-lg text-gray-200">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="w-6/12 pr-4">
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="chartFirstDate" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                            <div class="w-6/12 pl-4">
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="chartSecondDate" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                        </div>
+                        <div class="flex justify-center mb-8">
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                                    type="button" onclick="GetCategoriasForChart()">
+                                <i class="fas fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                        <div id="canvasContainerCategorias">
+                            <canvas id="chartCategorias" width="200" height="150" class=""></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class=" mt-6 " style="width: 48%">
+                <span class="text-gray-500 text-3xl">
+                    Reporte  Reservas
+                </span>
+                <div class="flex justify-between ">
+                    <div class=" w-full mt-2 bg-gray-800 rounded-lg p-6 my-4 shadow-lg text-gray-200">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="w-6/12 pr-4">
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="chartFirstDateReserva" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                            <div class="w-6/12 pl-4">
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="chartSecondDateReserva" type="date" placeholder="Fecha de Entrada">
+                            </div>
+                        </div>
+                        <div class="flex justify-center mb-8">
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                                    type="button" onclick="GetReservasForChart()">
+                                <i class="fas fa-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                        <div id="canvasContainerReservas">
+                            <canvas id="chartReservas" width="200" height="150" class=""></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="flex" id="quickSearchRoomModal" style="display: none; z-index: 5000;">
+        <div class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500">
+            <table id="roomsTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto"
+                   style="width:100%;">
+                <thead>
+                    <tr>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">N• Puerta</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Piso</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Categoria</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Superficie</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">tamano de Cama</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Descripcion</th>
+                        <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Comodidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="quickSearchCustomerModal" class="" style="display: none;">
+        <table id="customersTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto" style="width:100%;">
+            <thead>
+                <tr>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Documento</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Apellido</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Nombre</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold xsmb-2">Fecha de Nacimiento</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Pais</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">e-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+
+
+
+
+
+
+    <!-- busqueda rapida -->
+
+
+
+    <script src="https://kit.fontawesome.com/e39886f78e.js" crossorigin="anonymous"></script>
+    <script src="../JS/Vendor/jquery-3.4.1.js"></script>
+    <script src="../JS/Vendor/jquery.modal.js"></script>
+    <script src="../JS/Vendor/jquery.dataTables.js"></script>
+    <script src="../JS/Vendor/dataTables.responsive.js"></script>
+    <script src="../JS/Vendor/dataTables.select.js"></script>
+    <script src="../JS/App/Index.js"></script>
+    <script src="../JS/App/AgreagarDatos.js"></script>
+
+    <script>
+        function openSearchRoomModal() {
+            $("#quickSearchRoomModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                closeExisting: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+
+        function openSearchCustomerModal() {
+            $("#quickSearchCustomerModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                closeExisting: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+    </script>
+
+</body>
+
+</html>

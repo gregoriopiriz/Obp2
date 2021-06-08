@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../CSS/Vendor/tailwind.css">
+    <link rel="stylesheet" href="../CSS/Vendor/fullcalendar.css">
+    <link rel="stylesheet" href="../CSS/Vendor/daygrid.css">
+    <link rel="stylesheet" href="../CSS/Vendor/jquery.dataTables.css">
+    <link rel="stylesheet" href="../CSS/Vendor/responsive.dataTables.css">
+    <link rel="stylesheet" href="../CSS/Vendor/dataTables.checkboxes.css">
+    <link rel="stylesheet" href="../CSS/Vendor/select.dataTables.css">
+    <link rel="stylesheet" href="../CSS/App/customTable.css">
+
+
+
+
+    <link rel="stylesheet" href="../CSS/Vendor/jquery.modal.css">
+
+    <style>
+        #menu-toggle:checked + #menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900">
+    <header class="lg:px-4 px-6 bg-gray-800 flex flex-wrap items-center shadow-lg lg:py-2 py-2">
+
+        <label for="menu-toggle" class="pointer-cursor lg:hidden block">
+            <svg class="fill-current text-white"
+                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="w-full">
+            <div class="hidden lg:flex lg:items-center lg:w-auto w-full justify-between" id="menu">
+                <nav>
+                    <ul class="lg:flex items-center justify-between text-base pt-4 lg:pt-0">
+                        <li class="mr-2 my-2 lg:my-0">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4" href="./index.html">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded py-2 px-4 bg-indigo-500 text-white" href="./bookings.html">
+                                <i class="fas fa-calendar-alt"></i> Reservas
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4" href="./rooms.html">
+                                <i class="fas fa-bed"></i> Habitaciones
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./customers.html">
+                                <i class="fas fa-users"></i> Clientes
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./options.html">
+                                <i class="fas fa-wrench"></i> Options
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="../imagenes/logoModificado.png" id="logo" class="float-right" style="width: 150px" />
+            </div>
+        </div>
+    </header>
+
+    <div class="w-11/12 mt-6 bg-gray-800 rounded-lg p-8 my-4 mx-auto shadow-lg">
+
+        <div id="calendar"></div>
+
+        <div class="w-full flex items-center justify-center">
+            <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                    type="button" onclick="openAddBookingModal()">
+                <i class="fas fa-plus"></i>
+                Agregar Reserva
+            </button>
+        </div>
+
+    </div>
+
+    <div id="addBookingModal" style="display: none;">
+        <div class="w-full">
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex flex-col">
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="fechaInicio">
+                                Fecha de Entrada
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="fechaInicio" type="date" />
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="fechaFin">
+                                Fecha de Salida
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="fechaFin" type="date" />
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                                    type="button" id="checkHabsButton">
+                                Checkear Disponibilidad
+                            </button>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="flex flex-row">
+                            <div class="w-full flex-row px-3 mb-8">
+                                <input type="radio" name="tipoCliente" id="tipoClienteNoRegistrado" value="false" checked />
+                                <label class="uppercase tracking-wide text-gray-200 text-lg font-bold mb-2"
+                                       for="tipoClienteNoRegistrado">
+                                    Cliente no Registrado
+                                </label>
+                            </div>
+                            <div class="w-full flex-row px-3 mb-8">
+                                <input type="radio" name="tipoCliente" id="tipoClienteRegistrado" value="true" />
+                                <label class="uppercase tracking-wide text-gray-200 text-lg font-bold mb-2"
+                                       for="tipoClienteRegistrado">
+                                    Cliente Registrado
+                                </label>
+                            </div>
+                        </div>
+                        <div class="flex flex-col" id="formForRegistrado">
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="documentoRegistrado">
+                                    Documento
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="documentoRegistrado" type="text" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col" id="formForNoRegistrado">
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="documentoNoRegistrado">
+                                    Documento
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="documentoNoRegistrado" type="text" />
+                            </div>
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="nombreNoRegistrado">
+                                    Nombre
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="nombreNoRegistrado" type="text" />
+                            </div>
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="apellidoNoRegistrado">
+                                    Apellido
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="apellidoNoRegistrado" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2 px-3 mb-3 ">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                           for="nombreComodidad">
+                        Habitacion/es
+                    </label>
+                    <div class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500">
+                        <table id="bookingRoomsTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto"
+                               style="width:100%;">
+                            <thead>
+                                <tr>
+                                    <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2"></th>
+                                    <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">N• Puerta</th>
+                                    <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Piso</th>
+                                    <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Categoria</th>
+                                    <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">tamano de Cama</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row mt-6">
+            </div>
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="addBookingButton">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="editBookingModal" style="display: none;">
+        <input class="hidden" readonly id="idReserva" />
+        <input class="hidden" readonly id="clienteRegistrado" />
+        <input class="hidden" readonly id="estadoReserva" />
+        <div class="w-full">
+            <div class="flex">
+                <div class="w-1/2">
+                    <div class="flex flex-col">
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="updateFechaInicio">
+                                Fecha de Entrada
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="updateFechaInicio" type="date" />
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="updateFechaFin">
+                                Fecha de Salida
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="updateFechaFin" type="date" />
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                                    type="button" id="checkModHabsButton">
+                                Checkear Disponibilidad
+                            </button>
+                        </div>
+                        <div class="w-full px-3 mb-8">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="HabitacionesReservadas">
+                                Habitaciones reservadas
+                            </label>
+                            <input class="text-center appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="HabitacionesReservadas" readonly type="text" />
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="flex flex-col" id="">
+                            <div class="flex flex-row">
+                                <div class="w-full px-3 mb-8">
+                                    <label class=" w-full uppercase tracking-wide text-gray-200 text-lg font-bold mt-8"
+                                           for="">
+                                        Cliente
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="updateDocumento">
+                                    Documento
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="updateDocumento" readonly type="text" />
+                            </div>
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="updateNombre">
+                                    Nombre
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="updateNombre" readonly type="text" />
+                            </div>
+                            <div class="w-full px-3 mb-8">
+                                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                       for="updateApellido">
+                                    Apellido
+                                </label>
+                                <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                       id="updateApellido" readonly type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <div class="flex flex-col">
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="">
+                                Habitacion/es
+                            </label>
+                            <div id="updateBookingRoomsTableContainer" class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500">
+                                <table id="updateBookingRoomsTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto"
+                                       style="width:100%;">
+                                    <thead>
+                                        <tr>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2"></th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">N• Puerta</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Piso</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Categoria</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">tamano de Cama</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="">
+                                Gastos
+                            </label>
+                            <div class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500">
+                                <table id="updateGastosTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto"
+                                       style="width:100%;">
+                                    <thead>
+                                        <tr>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Numero</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Nombre</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Descripcion</th>
+                                            <th class="uppercase tracking-wide text-gray-200 text-sm font-bold mb-2">Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row mt-6 justify-center">
+                <div class="w-full px-3 mb-8">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                           for="updateNombre">
+                        Precio Total
+                    </label>
+                    <input class="text-center block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                           id="precioTotal" readonly type="text" />
+                </div>
+            </div>
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="updateBookingButton">
+                        <i class="fas fa-edit"></i>
+                        Modificar Reserva
+                    </button>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="cancelBookingButton">
+                        <i class="fas fa-calendar-times"></i>
+                        Cancelar Reserva
+                    </button>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="checkinBookingButton">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Check-in
+                    </button>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="checkoutBookingButton">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Check-out
+                    </button>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" onclick="openAddGastoModal()">
+                        <i class="fas fa-plus"></i>
+                        Agregar Gasto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="addGastoModal" style="display: none;">
+        <div class="w-full">
+            <div class="flex">
+                <div class="w-full">
+                    <div class="flex flex-col">
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="NombreGasto">
+                                Nombre
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="NombreGasto" type="text" />
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="DescripcionGasto">
+                                Descripcion
+                            </label>
+                            <textarea id="DescripcionGasto" cols="20" class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"></textarea>
+                        </div>
+                        <div class="w-full px-3 mb-3">
+                            <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                                   for="PrecioGasto">
+                                Precio
+                            </label>
+                            <input class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                                   id="PrecioGasto" type="number" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row mt-6">
+            </div>
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="addGastoButton">
+                        <i class="fas fa-plus"></i>
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="deleteGastoModal" style="display: none;">
+        <div class="w-full">
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="deleteGastoButton">
+                        <i class="fas fa-plus"></i>
+                        Eliminar Gasto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="https://kit.fontawesome.com/e39886f78e.js" crossorigin="anonymous"></script>
+
+
+    <script src="../JS/Vendor/jquery-3.4.1.js"></script>
+    <script src="../JS/Vendor/jquery.modal.js"></script>
+
+    <script src="../JS/Vendor/fullcalendar.js"></script>
+    <script src="../JS/Vendor/daygrid.js"></script>
+    <script src="../JS/Vendor/interaction.js"></script>
+
+    <script src="../JS/Vendor/fullcalendar.es.js"></script>
+
+    <script src="../JS/Vendor/jquery.dataTables.js"></script>
+    <script src="../JS/Vendor/dataTables.responsive.js"></script>
+    <script src="../JS/Vendor/dataTables.select.js"></script>
+    <script src="../JS/Vendor/dataTables.checkboxes.js"></script>
+
+
+
+    <script src="../JS/App/generateCalendar.js"></script>
+
+    <script src="../JS/App/Bookings.js"></script>
+
+    <script>
+        function openAddBookingModal() {
+            $("#addBookingModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openEditBookingModal() {
+            $("#editBookingModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                closeExisting: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openAddGastoModal() {
+            $("#addGastoModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                closeExisting: false,
+                modalClass: "w-1/2 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openDeleteGastoModal() {
+            $("#deleteGastoModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                closeExisting: false,
+                modalClass: "w-1/2 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+    </script>
+
+
+
+</body>
+
+</html>

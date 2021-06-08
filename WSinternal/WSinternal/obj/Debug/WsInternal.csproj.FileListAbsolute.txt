@@ -1,0 +1,366 @@
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\WsInternal.dll.config
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\WsInternal.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\WsInternal.pdb
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csc.exe
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csc.exe.config
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csc.rsp
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csi.exe
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csi.exe.config
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\csi.rsp
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.AppContext.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Console.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.IO.Compression.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Claims.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.ValueTuple.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\vbc.exe
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\vbc.exe.config
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\vbc.rsp
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\VBCSCompiler.exe
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\Newtonsoft.Json.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Net.Http.Formatting.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.WebHost.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\Newtonsoft.Json.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Net.Http.Formatting.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.WebHost.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\es\System.Web.Http.resources.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\obj\Debug\WsInternal.csprojAssemblyReference.cache
+C:\Users\wis\source\repos\WsInternal\WsInternal\obj\Debug\WsInternal.csproj.CoreCompileInputs.cache
+C:\Users\wis\source\repos\WsInternal\WsInternal\obj\Debug\WsInternal.csproj.CopyComplete
+C:\Users\wis\source\repos\WsInternal\WsInternal\obj\Debug\WsInternal.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\obj\Debug\WsInternal.pdb
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Cors.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.Cors.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\System.Web.Http.Cors.xml
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\CommonSolution.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\CommonSolution.pdb
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\BussinesLogic.dll
+C:\Users\wis\source\repos\WsInternal\WsInternal\bin\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\WsInternal.dll.config
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\WsInternal.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\WsInternal.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csc.exe
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csc.exe.config
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csc.rsp
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csi.exe
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csi.exe.config
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\csi.rsp
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.AppContext.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Console.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.IO.Compression.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.IO.Pipes.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Claims.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.ValueTuple.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Xml.XPath.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\vbc.exe
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\vbc.exe.config
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\vbc.rsp
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\VBCSCompiler.exe
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\Newtonsoft.Json.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Net.Http.Formatting.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Cors.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.Cors.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.WebHost.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.Cors.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\Newtonsoft.Json.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Net.Http.Formatting.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\System.Web.Http.WebHost.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\es\System.Web.Http.resources.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\obj\Debug\WsInternal.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\obj\Debug\WsInternal.csproj.CopyComplete
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\obj\Debug\WsInternal.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\WsInternal\obj\Debug\WsInternal.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll.config
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe.config
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.rsp
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe.config
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.rsp
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.AppContext.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Console.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Compression.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Claims.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.ValueTuple.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe.config
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.rsp
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Cors.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.resources.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csprojAssemblyReference.cache
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csproj.CopyComplete
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll.config
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe.config
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.rsp
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe.config
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.rsp
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.AppContext.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Console.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Compression.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Claims.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.ValueTuple.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe.config
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.rsp
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Cors.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.resources.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csprojAssemblyReference.cache
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csproj.CopyComplete
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll.config
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\WsInternal.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.exe.config
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csc.rsp
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.exe.config
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\csi.rsp
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.AppContext.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Console.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Compression.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.IO.Pipes.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Claims.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.ValueTuple.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.exe.config
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\vbc.rsp
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Cors.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.Cors.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Newtonsoft.Json.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Net.Http.Formatting.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\System.Web.Http.WebHost.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.resources.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\WsInternal\obj\Debug\WsInternal.csproj.CopyComplete

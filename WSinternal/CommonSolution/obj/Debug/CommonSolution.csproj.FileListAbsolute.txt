@@ -1,0 +1,26 @@
+C:\Users\wis\source\repos\WsInternal\CommonSolution\bin\Debug\CommonSolution.dll
+C:\Users\wis\source\repos\WsInternal\CommonSolution\bin\Debug\CommonSolution.pdb
+C:\Users\wis\source\repos\WsInternal\CommonSolution\obj\Debug\CommonSolution.csprojAssemblyReference.cache
+C:\Users\wis\source\repos\WsInternal\CommonSolution\obj\Debug\CommonSolution.csproj.CoreCompileInputs.cache
+C:\Users\wis\source\repos\WsInternal\CommonSolution\obj\Debug\CommonSolution.dll
+C:\Users\wis\source\repos\WsInternal\CommonSolution\obj\Debug\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\CommonSolution\bin\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\CommonSolution\bin\Debug\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\CommonSolution\obj\Debug\CommonSolution.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\CommonSolution\obj\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\CommonSolution\obj\Debug\CommonSolution.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.csprojAssemblyReference.cache
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\bin\Debug\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\CommonSolution\obj\Debug\CommonSolution.pdb

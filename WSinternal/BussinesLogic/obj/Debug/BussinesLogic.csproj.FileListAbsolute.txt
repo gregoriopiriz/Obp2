@@ -1,0 +1,41 @@
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\bin\Debug\CommonSolution.dll
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\bin\Debug\CommonSolution.pdb
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\wis\source\repos\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\bin\Debug\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\bin\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\bin\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\bin\Debug\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Obligatorio en framwork\WsInternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.pdb
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.dll
+D:\Users\grego\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.pdb
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\migue\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\BussinesLogic.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.dll
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\bin\Debug\CommonSolution.pdb
+D:\Users\Gregorio\Desktop\Repos\oblig_prog2\WSinternal\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete

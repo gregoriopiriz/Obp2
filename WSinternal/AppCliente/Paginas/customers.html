@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="../CSS/Vendor/tailwind.css" rel="stylesheet">
+
+    <link href="../CSS/Vendor/jquery.dataTables.css" rel="stylesheet">
+    <link href="../CSS/Vendor/responsive.dataTables.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Vendor/select.dataTables.css">
+    <link rel="stylesheet" href="../CSS/App/customTable.css">
+    <link rel="stylesheet" href="../CSS/Vendor/jquery.modal.css">
+
+
+
+    <style>
+        #menu-toggle:checked+#menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900">
+    <header class="lg:px-4 px-6 bg-gray-800 flex flex-wrap items-center shadow-lg lg:py-2 py-2">
+
+        <label for="menu-toggle" class="pointer-cursor lg:hidden block">
+            <svg class="fill-current text-white"
+                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
+
+        <div class="w-full">
+            <div class="hidden lg:flex lg:items-center lg:w-auto w-full justify-between" id="menu">
+                <nav>
+                    <ul class="lg:flex items-center justify-between text-base pt-4 lg:pt-0">
+                        <li class="mr-2 my-2 lg:my-0">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4" href="./index.html">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./bookings.html">
+                                <i class="fas fa-calendar-alt"></i> Reservas
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4" href="./rooms.html">
+                                <i class="fas fa-bed"></i> Habitaciones
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded py-2 px-4 bg-indigo-500 text-white" href="./customers.html">
+                                <i class="fas fa-users"></i> Clientes
+                            </a>
+                        </li>
+                        <li class="mr-2 my-2">
+                            <a class="text-center block rounded text-white hover:bg-gray-700 py-2 px-4"
+                               href="./options.html">
+                                <i class="fas fa-wrench"></i> Options
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="../imagenes/logoModificado.png" id="logo" class="float-right" style="width: 150px" />
+            </div>
+        </div>
+    </header>
+
+
+    <div class="w-11/12 mt-6 bg-gray-800 rounded-lg p-8 my-4 mx-auto shadow-lg" style="height: 80%;">
+        <table id="customersTable" class="hover stripe bg-transparent text-gray-400 text-center mx-auto" style="width:100%;">
+            <thead>
+                <tr>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Documento</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Apellido</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Nombre</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold xsmb-2">Fecha de Nacimiento</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">Pais</th>
+                    <th class="uppercase tracking-wide text-white text-sm font-bold mb-2">e-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+
+        </table>
+        <div class="w-full flex items-center justify-center">
+            <button
+                class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                type="button" onclick="openAddCustomerModal()">
+                <i class="fas fa-plus"></i>
+                Agregar Cliente
+            </button>
+        </div>
+    </div>
+
+
+
+    <div id="addCustomerModal" class="" style="display: none;">
+        <div class="w-full">
+            <div class="flex">
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="documento">
+                        Documento
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="documento" type="text">
+                </div>
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="nombre">
+                        Nombre
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="nombre" type="text">
+                </div>
+                <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="apellido">
+                        Apellido
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="apellido" type="text">
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-full px-3 mb-3 lg">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                        for="fechaNacimiento">
+                        Fecha de Nacimiento
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="fechaNacimiento" type="date">
+                </div>
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="pais">
+                        Pais
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="pais" type="text">
+                </div>
+            </div>
+            <div class="w-full px-3 mb-3">
+                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="email">
+                    e-mail
+                </label>
+                <input
+                    class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                    id="email" type="email">
+            </div>
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button
+                        class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                        type="button" onclick="AddCustomer()">
+                        Agregar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="editCustomerModal" class="" style="display: none;">
+        <div class="w-full">
+            <div class="flex">
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="updateDocumento">
+                        Documento
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="updateDocumento" readonly type="text">
+                </div>
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="updateNombre">
+                        Nombre
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="updateNombre" type="text">
+                </div>
+                <div class="w-full px-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="updateApellido">
+                        Apellido
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="updateApellido" type="text">
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-full px-3 mb-3 lg">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2"
+                        for="updateFechaNacimiento">
+                        Fecha de Nacimiento
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="updateFechaNacimiento" type="date">
+                </div>
+                <div class="w-full px-3 mb-3">
+                    <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="updatePais">
+                        Pais
+                    </label>
+                    <input
+                        class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                        id="updatePais" type="text">
+                </div>
+            </div>
+            <div class="w-full px-3 mb-3">
+                <label class="block uppercase tracking-wide text-gray-200 text-xs font-bold mb-2" for="updateEmail">
+                    e-mail
+                </label>
+                <input
+                    class="appearance-none block w-full bg-gray-700 text-gray-200 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-indigo-500"
+                    id="updateEmail" type="email">
+            </div>
+            <div class="flex flex-wrap items-center mt-6">
+                <div class="w-full px-3">
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" onclick="UpdateCustomer()">
+                        <i class="fas fa-edit"></i>
+                        Modificar
+                    </button>
+                    <button class="bg-indigo-500 hover:bg-indigo-700 my-4 mx-4 text-white font-bold py-2 px-4 rounded focus:outline-none"
+                            type="button" id="deleteCustomerButton">
+                        <i class="fas fa-trash-alt"></i>
+                        Eliminar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/e39886f78e.js" crossorigin="anonymous"></script>
+    <script src="../JS/Vendor/jquery-3.4.1.js"></script>
+
+    <script src="../JS/Vendor/jquery.modal.js"></script>
+
+    <script src="../JS/Vendor/jquery.dataTables.js"></script>
+    <script src="../JS/Vendor/dataTables.responsive.js"></script>
+    <script src="../JS/Vendor/dataTables.select.js"></script>
+
+
+    <script src="../JS/App/Customers.js"></script>
+
+    <script>
+        function openAddCustomerModal() {
+            $("#addCustomerModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openEditCustomerModal() {
+            $("#editCustomerModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                modalClass: "w-1/3 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openEditCustomerSecondModal() {
+            $("#editCustomerSecondModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                modalClass: "w-11/12 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+        function openDeleteCustomerModal() {
+            $("#deleteCustomerModal").modal({
+                fadeDuration: 100,
+                clickClose: true,
+                showClose: false,
+                modalClass: "w-1/3 rounded-lg bg-gray-800 px-2 py-4",
+            });
+        }
+    </script>
+</body>
+
+</html>
